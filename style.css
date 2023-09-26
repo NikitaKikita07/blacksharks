@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_part {
+    height: 90vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.text_part {
+    width: 500px;
+    height: 150px;
+}
+
+.input_block {
+    width: 400px;
+    height: 320px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    padding: 10px 16px 24px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.facebook_logo {
+    margin: -28px;
+}
