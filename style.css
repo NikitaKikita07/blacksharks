@@ -21,12 +21,70 @@ h2{
 .input_block{
     width: 400px;
     height: 288px;
-    background-color: rgb(203, 148, 75);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
     padding: 10px 16px 24px ;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
 }
 .facebook_logo{
 margin: -28px;
+}
+.login{
+    height: 22px;
+    padding: 16px 14px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    font-size: 18px;
+
+}
+.login:focus{
+    outline: none !important;
+    border: 1px solid #4ba2ff;
+    box-shadow: 0 0 6px #4ba2ff;
+}
+.enter_btn{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 14px 16px;
+    color: aliceblue;
+}
+.enter_btn:hover{
+    cursor: pointer;
+}
+
+.forgot_pass{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.forgot_pass:visited{
+    color: #1877f2;
+    text-decoration: none;
+
+}
+.line{
+    width: 100%;
+    height: 0.8px;
+    background-color: #ccd0d5;
+}
+.new_acc{
+    padding: 14px 16px;
+    background-color: #42b72a;
+    border-radius: 6px;
+    width: 240px;
+    margin: auto;
+    color: #f0f2f5;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
 }
