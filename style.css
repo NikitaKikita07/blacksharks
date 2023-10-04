@@ -1,37 +1,129 @@
+@font-face {
+    font-family: 'Mazzard';
+    src: local('Mazzard H ExtraLight'), local('font/Mazzard-H-ExtraLight'),
+        url('font/MazzardH-ExtraLight.woff2') format('woff2'),
+        url('font/MazzardH-ExtraLight.woff') format('woff'),
+        url('font/MazzardH-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-family: 'Mazzard';
 }
 
-.main_part {
-    height: 90vh;
-    background-color: #f0f2f5;
+.top_part {
     display: flex;
-    justify-content: center;
+    width: 1440px;
+    margin: auto;
+    height: 77px;
+    background: #f0f0f0;
+}
+
+.catalog {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+
+#catalog_img {
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+.catalog_block {
+    display: flex;
     align-items: center;
-    gap: 64px;
 }
 
-.text_part {
-    width: 500px;
-    height: 150px;
+.logo_block {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-left: 150px;
 }
 
-.input_block {
-    width: 400px;
-    height: 320px;
-    background: #ffffff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
-    border-radius: 8px;
-    padding: 10px 16px 24px;
-}
-
-h2 {
+.logo-text {
+    width: 278px;
+    height: 35px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    font-size: 28px;
+    letter-spacing: 3.45px;
+    padding-top: 12px;
 }
 
-.facebook_logo {
-    margin: -28px;
+ul {
+    align-items: center;
+    display: flex;
+}
+
+.list-search     {
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+}
+
+.list-profile {
+    list-style: none;
+    display: flex;
+}
+
+.list-likes {
+    list-style: none;
+    display: flex;
+}
+
+.list-card {
+    list-style: none;
+    display: flex;
+}
+
+.list-language {
+    list-style: none;
+    display: flex;
+}
+
+
+.search-text {
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+#search-img {  
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#profile-img {  
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#likes-img {  
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#card-img {  
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#language-img {  
+    padding-left: 30px;
+    padding-right: 60px;
+    cursor: pointer;
 }
