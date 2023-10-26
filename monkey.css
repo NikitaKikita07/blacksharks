@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+.cards {
+    background-color: rgb(73, 159, 234);
+    height: 386px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 240px;
+    height: 386px;
+    border-radius: 6px;
+    background: #F2F2F2;
+}
+.catalog_name{
+    color: #717171;
+    font-family: Mazzard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 5px;
+    margin-left: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.catalog_product_name{
+    margin-top: 5px;
+    margin-left: 25px;
+    display: block;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.rate{
+    margin-left: 25px;
+    margin-top: 5px;
+    align-items: center;
+}
+.revs{
+    color: #717171;
+font-family: Mazzard;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img {
+    height: 190px;
+    width: 190px;
+    background-color: darkgreen;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.prod_name {
+    color: #000;
+
+    font-family: Mazzard;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.category {
+    color: #717171;
+    font-family: Mazzard;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: block;
+}
+.stars{
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+}
+.price{
+    color: #000;
+    font-family: Mazzard;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;}
