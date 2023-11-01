@@ -237,8 +237,18 @@ color: #F35A05;
  font-weight: 700;
  line-height: 30px;
  word-wrap: break-word;
-
+margin-top: 40px;
 text-align: left;
+display: block;
+}
+.semantika2 {
+    margin-top: 20px;
+    display: block;
+    text-align: left;
+}
+.vector {
+    display: flex;
+    margin-left: 1200px;
 }
 @media only screen and (max-width: 768px) {
 .semantic {
